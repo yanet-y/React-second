@@ -1,0 +1,33 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  padding-top: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  cursor: pointer;
+}
+
+.card:hover{
+  box-shadow: 0 0 5px dodgerblue;
+}
+
+.card h2{
+  font-family: Poppins;
+}
+
+.card p{
+  color: rgb(0, 8, 11);
+  font-family: Poppins;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
